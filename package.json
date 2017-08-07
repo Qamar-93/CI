@@ -1,0 +1,26 @@
+{
+  "name": "learn-travis-yourname",
+  "description": "Simple Travis-CI check for JSHint (Code Linting)",
+  "author": "your name here :-)",
+  "version": "0.0.1",
+  "devDependencies": {
+    "jshint": "^2.9.5",
+    "shot": "^3.4.2",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.8.0"
+  },
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint hello.js"
+  },
+  "main": "hello.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FACG2/Continuous-integration.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FACG2/Continuous-integration/issues"
+  },
+  "homepage": "https://github.com/FACG2/Continuous-integration#readme"
+}
